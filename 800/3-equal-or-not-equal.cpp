@@ -2,6 +2,8 @@
 #include <string>
 #include <string.h>
 
+// belum selesai
+
 void solve(char input[]) {
     int i;
     for(i=0; i<strlen(input)) {
