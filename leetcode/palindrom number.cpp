@@ -1,5 +1,6 @@
 // by: luthfiyyah hanifah amari
-// 3 jan 2023
+// 3 - 4 jan 2023 (ngoding nya tengah malam wkwk)
+// https://leetcode.com/problems/palindrome-number/
 
 class Solution {
 public:
@@ -18,7 +19,9 @@ public:
         i = 1;
         while(i <= length/2 )
         {
-            if ((x / static_cast<int>(pow(10, length - i))) != x % static_cast<int>(pow(10, i)))
+            int kiri = ( x / static_cast<int>(pow(10, length - i)) ) % 10;
+            int kanan = (x % static_cast<int>(pow(10, i)) ) / static_cast<int>(pow(10, i-1));
+            if (kiri !=  kanan)
             {
                 return false;
             }
