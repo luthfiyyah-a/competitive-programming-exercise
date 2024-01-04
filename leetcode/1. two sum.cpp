@@ -3,6 +3,7 @@ using namespace std;
 
 // 1 Januari 2024
 // by: Luthfiyyah hanifah amari
+// level: easy
 
 // Complexity: O(n^2)
 // *Not an optimal solution

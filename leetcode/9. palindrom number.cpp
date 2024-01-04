@@ -1,5 +1,6 @@
-// by: luthfiyyah hanifah amari
 // 3 - 4 jan 2023 (ngoding nya tengah malam wkwk)
+// by: luthfiyyah hanifah amari
+// level: easy
 // https://leetcode.com/problems/palindrome-number/
 
 class Solution {
